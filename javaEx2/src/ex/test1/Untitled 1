@@ -1,0 +1,28 @@
+package ex.test1;
+
+ 
+class Test_20 {
+	private int x;
+
+	public final void set(int x) { // final 메소드
+		this.x = x + 10;
+	}
+
+	public int get() {
+		return x;
+	}
+}
+
+//class Ex_20 extends Test_20 {
+//	public void set(int x) {
+//		this.x = x;
+//	}
+//}
+
+public class Ex20 {
+	public static void main(String[] args) {
+//		Ex_20 o = new Ex_20();
+//		System.out.println(o.get());
+	}
+}
+ 
