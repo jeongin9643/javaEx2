@@ -9,8 +9,8 @@ public class Ex14_DateUtil {
 		System.out.println("2000-02-30 : " + util.isValidDate("2000-02-30"));
 		System.out.println("2000/02/29 : " + util.isValidDate("2000/02/29"));
 		
-		int age = util.toAge("1996-12-30");
-		System.out.println(age);
+//		int age = util.toAge("1996-12-30");
+//		System.out.println(age);
 	}
 
 }
